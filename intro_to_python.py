@@ -1,4 +1,4 @@
-
+"""
 if 5 > 2:
   print("Five is greater than two!")
 
@@ -37,7 +37,7 @@ if y%2==0:
 else:
   print("Odd number")
 
-y=input("Enter a number")
+#y=input("Enter a number")
 if int(y)%2==0:
   print("Even number")
 else:
@@ -55,7 +55,7 @@ print(5!=4)   #notequalto
 #logical operators
 # AND OR
 age=20
-nationality="North America"
+#nationality="North America"
 if nationality=="North America" and age==35:
   print("you can be president")
 else:
@@ -79,3 +79,21 @@ elif z==3:
   print("z is equal to 3")
 else:
   print("z is less than 33")
+  """
+
+
+#example
+city=input("Enter a city:")
+if city== "Nairobi":
+  print("can be president" )
+elif city=="mombasa":
+  print("can be president")
+elif city == "kisumu":
+  print("can be president")
+else:
+  print("cant be president")
+
+
+
+
+
