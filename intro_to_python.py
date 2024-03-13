@@ -29,3 +29,53 @@ if 5 > 2:
   total = int(price1) + quantity
   print(total)
 
+
+#checking even or odd
+y=20
+if y%2==0:
+  print("Even number")
+else:
+  print("Odd number")
+
+y=input("Enter a number")
+if int(y)%2==0:
+  print("Even number")
+else:
+  print("Odd number")
+
+#assignment
+y=2
+y+=4 #z=z+4
+print(y)
+
+#comparison operator
+print(5==2)
+print(5!=4)   #notequalto
+
+#logical operators
+# AND OR
+age=20
+nationality="North America"
+if nationality=="North America" and age==35:
+  print("you can be president")
+else:
+  print("you cant be president")
+
+  y="vansh"
+  x="mercy"
+  z="kevin"
+  attendance=["x","y","z"]
+  if attendance=="vansh" or "mercy":
+    print("attendance is ok")
+  else:
+    print("attendance is not okay")
+
+
+# illustration of elif
+z=3
+if  z>3:
+  print("z is greater than 3")
+elif z==3:
+  print("z is equal to 3")
+else:
+  print("z is less than 33")
