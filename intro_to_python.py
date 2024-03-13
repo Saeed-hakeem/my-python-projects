@@ -37,7 +37,7 @@ if y%2==0:
 else:
   print("Odd number")
 
-#y=input("Enter a number")
+y=input("Enter a number")
 if int(y)%2==0:
   print("Even number")
 else:
@@ -82,6 +82,8 @@ else:
   """
 
 
+
+"""
 #example
 city=input("Enter a city:")
 if city== "Nairobi":
@@ -91,8 +93,22 @@ elif city=="mombasa":
 elif city == "kisumu":
   print("can be president")
 else:
-  print("cant be president")
+  print("cant be president!!!")
+  """
 
+x=4
+y=2
+z=input("Enter a num:")
+if int(z)== 1:
+  print("multiplication:", x*y)
+elif int(z)== 2:
+  print("addition:", x+y )
+
+elif int(z)== 3:
+  print("subtraction:",x-y)
+
+else:
+  print("testing arithmetic operations!!!")
 
 
 
