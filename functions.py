@@ -33,6 +33,6 @@ printName()
 def getmodulus(y,x):
     return y%x
 
-z=getmodulus(y=5,x=2)+99
+z=getmodulus(5,2)+99
 print(z)
 
