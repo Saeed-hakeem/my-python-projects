@@ -36,3 +36,10 @@ def getmodulus(y,x):
 z=getmodulus(5,2)+99
 print(z)
 
+# A simple Python function
+def fun():
+	print("Welcome to my python workbook")
+
+
+# Driver code to call a function
+fun()
