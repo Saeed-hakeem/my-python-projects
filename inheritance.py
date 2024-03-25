@@ -6,7 +6,7 @@ class Person:
         self.person_age=person_age
         self.person_name=person_name
         self.person_residence=person_residence
-    
+
     def printPerson(self): #function to print properties
         print("Age:",self.person_age,"Name:",self.person_name,"Residence:",self.person_residence)
 
